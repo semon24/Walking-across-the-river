@@ -48,6 +48,9 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# Unity Package Cache
+/[Pp]ackage[Cc]ache/
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
