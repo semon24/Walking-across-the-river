@@ -1,24 +1,6 @@
+# Автоматически определять текстовые файлы и устанавливать LF в репозитории
 * text=auto
 
-*.jpg binary
-*.png binary
-
-# Unity файлы должны сохранять оригинальные окончания строк
-*.unity binary
-*.prefab binary
-*.asset binary
-*.meta binary
-*.anim binary
-*.controller binary
-*.mat binary
-*.physicsMaterial2D binary
-*.physicsMaterial binary
-*.unitypackage binary
-
-# Текстовые файлы (скрипты, shaders) должны использовать LF
-*.cs text eol=lf
-*.shader text eol=lf
-*.cginc text eol=lf
-*.txt text eol=lf
-*.md text eol=lf
-*.json text eol=lf
+# Явно указывать тип перевода строк для определённых файлов
+*.sh text eol=lf
+*.bat text eol=crlf
